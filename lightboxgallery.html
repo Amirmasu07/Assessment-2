@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHOTO/GALLERY</title>
+    <link rel="stylesheet" href="./lightbox.css">
+    <link rel="stylesheet" type="text/css" href="lightbox2/dist/css/lightbox.min.css">
+
+</head>
+
+<body>
+    
+    <!-- Images used to open the lightbox -->
+    <div class="row">
+        <h1>PHOTO/GALLERY</h1>
+        <div class="column">
+            <img src="https://picsum.photos/id/230/300/300" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/330/300/300" onclick="openModal();currentSlide(2)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/430/300/300" onclick="openModal();currentSlide(3)" class="hover-shadow">
+        </div>
+        <div class="column">
+            <img src="https://picsum.photos/id/530/300/300" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        </div>
+
+        <div class="column">
+            <img src="https://picsum.photos/id/630/300/300" onclick="openModal();currentSlide(5)" class="hover-shadow">
+        </div>
+
+        <div class="column">
+            <img src="https://picsum.photos/id/730/300/300" onclick="openModal();currentSlide(6)" class="hover-shadow">
+        </div>
+
+        <div class="column">
+            <img src="https://picsum.photos/id/830/300/300" onclick="openModal();currentSlide(7)" class="hover-shadow">
+        </div>
+
+        <div class="column">
+            <img src="https://picsum.photos/id/930/300/300" onclick="openModal();currentSlide(8)" class="hover-shadow">
+        </div>
+
+        <div class="column ">
+            <img src="https://picsum.photos/id/1000/300/300" onclick="openModal();currentSlide(9)" class="hover-shadow">
+        </div>
+    </div>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/230/1000/1000" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/330/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/430/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/530/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/630/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/730/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/830/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/930/300/300" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <img src="https://picsum.photos/id/1000/300/300" style="width:100%">
+            </div>
+
+            <script src="./lightbox.js"></script>
+</body>
+
+</html>
